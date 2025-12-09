@@ -26,8 +26,7 @@ void insertAtEnd(struct node** head, int new_data) {
         temp = temp->next;
     }
 
-    // Step 4: Link last node to the new node
-    temp->next = new_node;
+    temp->next = new_node; // Step 4: Link last node to the new node
 }
 
 // Function to display linked list
